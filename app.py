@@ -16,7 +16,8 @@ load_dotenv()
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+print("I AM NEW CODE 777")
+client = OpenAI()
 
 dp = Dispatcher()
 
